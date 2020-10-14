@@ -11,11 +11,11 @@ See our website [@babel/plugin-external-helpers](https://babeljs.io/docs/en/next
 Using npm:
 
 ```sh
-npm install --save-dev @babel/plugin-external-helpers
+npm install --save-dev @breathlessway/plugin-external-helpers-mini
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/plugin-external-helpers --dev
+yarn add @breathlessway/plugin-external-helpers-mini --dev
 ```

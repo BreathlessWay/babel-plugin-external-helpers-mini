@@ -1,6 +1,6 @@
 {
-  "name": "@babel/plugin-external-helpers-mini",
-  "version": "1.0.0",
+  "name": "@breathlessway/plugin-external-helpers-mini",
+  "version": "1.0.1",
   "description": "This plugin contains helper functions that’ll be placed at the top of the generated code",
   "license": "MIT",
   "publishConfig": {
