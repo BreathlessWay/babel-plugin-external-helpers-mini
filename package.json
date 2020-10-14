@@ -1,0 +1,35 @@
+{
+  "name": "@babel/plugin-external-helpers-mini",
+  "version": "1.0.0",
+  "description": "This plugin contains helper functions that’ll be placed at the top of the generated code",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BreathlessWay/plugin-external-helpers-mini.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/BreathlessWay/plugin-external-helpers-mini/issues"
+  },
+  "homepage": "https://github.com/BreathlessWay/plugin-external-helpers-mini#readme",
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.10.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/helper-plugin-test-runner": "^7.10.1"
+  }
+}
