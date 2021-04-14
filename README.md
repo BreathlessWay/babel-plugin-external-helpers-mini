@@ -4,7 +4,15 @@
 
 See our website [@babel/plugin-external-helpers](https://babeljs.io/docs/en/next/babel-plugin-external-helpers.html) for more information.
 
-> 为了解决生成的`babelHelpers`在小程序中`undefined`，将`babelHelpers`改成`global.babelHelpers`
+> 为了解决生成的`babelHelpers`在小程序中`undefined`，将`babelHelpers`改成`global.babelHelpers`，可以自定义前缀
+
+```
+options:{
+    helperVersion = "7.0.0-beta.0",
+    whitelist = false,
+    prefix='global'  // 自定义前缀
+}
+```
 
 ## Install
 
